@@ -2,6 +2,8 @@ package com.bridgelabz.opencsv.module;
 import com.opencsv.bean.CsvBindByName;
 
 public class CSVUser {
+
+
     @CsvBindByName
     private String name;
 
@@ -13,6 +15,14 @@ public class CSVUser {
 
     @CsvBindByName
     private String country;
+
+//   public CSVUser (String name , String email , String phoneNo , String country)
+//    {
+//        this.name = name;
+//        this.country = country;
+//        this.phoneNo = phoneNo;
+//        this.email = email;
+//    }
 
     @Override
     public String toString() {
