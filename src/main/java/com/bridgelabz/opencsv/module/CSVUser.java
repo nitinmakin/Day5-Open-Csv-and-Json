@@ -57,12 +57,12 @@ public class CSVUser {
         this.country = country;
     }
 
-//    public CSVUser (String name , String email , String phoneNo , String country)
-//    {
-//        this.name = name;
-//        this.country = country;
-//        this.phoneNo = phoneNo;
-//        this.email = email;
-//    }
+    public CSVUser (String name , String email , String phoneNo , String country)
+    {
+        this.name = name;
+        this.country = country;
+        this.phoneNo = phoneNo;
+        this.email = email;
+    }
 
 }

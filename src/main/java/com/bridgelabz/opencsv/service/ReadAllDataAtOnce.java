@@ -1,11 +1,9 @@
 package com.bridgelabz.opencsv.service;
+
 import com.opencsv.CSVReader;
-import java.io.FileNotFoundException;
+
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 public class ReadAllDataAtOnce {
     public static void main(String[] args)  {
