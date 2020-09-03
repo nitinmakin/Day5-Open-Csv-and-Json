@@ -11,7 +11,7 @@ public class ReadAllDataAtOnce {
     public static void main(String[] args)  {
         try {
             FileReader filereader = new FileReader("D:\\fellowship\\Day5-Open-Csv-and-Json" +
-                    "\\src\\test\\resources\\CSVUser.csv");
+                    "\\src\\test\\resources\\csvReader.csv");
             CSVReader csvReader = new CSVReader(filereader);
 
             // Reading all  Records at Once

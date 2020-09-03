@@ -16,14 +16,6 @@ public class CSVUser {
     @CsvBindByName
     private String country;
 
-//   public CSVUser (String name , String email , String phoneNo , String country)
-//    {
-//        this.name = name;
-//        this.country = country;
-//        this.phoneNo = phoneNo;
-//        this.email = email;
-//    }
-
     @Override
     public String toString() {
         return "CSVUser{" +
@@ -64,5 +56,13 @@ public class CSVUser {
     public void setCountry(String country) {
         this.country = country;
     }
+
+//    public CSVUser (String name , String email , String phoneNo , String country)
+//    {
+//        this.name = name;
+//        this.country = country;
+//        this.phoneNo = phoneNo;
+//        this.email = email;
+//    }
 
 }

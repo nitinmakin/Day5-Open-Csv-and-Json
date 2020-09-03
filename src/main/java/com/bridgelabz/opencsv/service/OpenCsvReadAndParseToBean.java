@@ -8,8 +8,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Iterator;
 public class OpenCsvReadAndParseToBean {
-    private static final String SAMPLE_CSV_FILE_PATH = "D:\\fellowship\\Day5-Open-Csv-and-Json\\" +
-                                                       "src\\test\\resources\\CSVUser.csv";
+    private static final String SAMPLE_CSV_FILE_PATH = "D:\\fellowship" +
+            "\\Day5-Open-Csv-and-Json\\src\\test\\resources\\csvReader.csv";
     public static void main(String[] args) throws IOException {
         try (
                 Reader reader = Files.newBufferedReader(Paths.get(SAMPLE_CSV_FILE_PATH));
@@ -20,7 +20,6 @@ public class OpenCsvReadAndParseToBean {
                     .build();
 
             Iterator<CSVUser> csvUserIterator = csvToBean.iterator();
-
             while (csvUserIterator.hasNext()) {
                 CSVUser csvUser = csvUserIterator.next();
                 System.out.println("Name : " + csvUser.getName());
