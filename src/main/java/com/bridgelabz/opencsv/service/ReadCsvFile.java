@@ -3,7 +3,8 @@ import com.opencsv.CSVReader;
 import java.io.*;
 import java.nio.file.*;
 public class ReadCsvFile {
-    private static final String SAMPLE_CSV_FILE_PATH = "./users.csv";
+    private static final String SAMPLE_CSV_FILE_PATH = "D:\\fellowship\\Day5-Open-Csv-and-Json\\" +
+                                                       "src\\test\\resources\\csvReader.csv";
 
     public static void main(String[] args) throws IOException {
         try (
